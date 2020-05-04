@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    float: left;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 75px;
+}
+
+.navigation-bar {
+  background-color: #153b50;
+  height: 75px;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+#navigation-container img {
+  float: left;
+}
+
+#navigation-container ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+#navigation-container li {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#menu {
+  float: right;
+  color: white;
+  padding-top: 20px;
+}
+
+#menu a {
+    color: white;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+
+img {
+    max-width: 100%;
+}
+body {
+    margin: 0px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    background-color:  #f7b2bd;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #153b50;
+}
+body {
+    background-color: #f7b2bd;
+}
+footer {
+  background-color: #b2a198;
+}
+footer a {
+color: white;
+font-size: 16px;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+text-decoration: none;
+line-height: 70px;
+padding: 5px 15px;
+opacity: 0.7;
+height: 24px;
+margin-top: 4px;
+margin-bottom: 4px;
+}
+
+/* Carousel */
+
+.carousel {
+    position: relative;
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel__images {
+    max-width: 20%;
+    height: 5px;
+}
+
+.carousel__track-container {
+    background: lightgreen;
+    height: 50%;
+    position: relative;
+}
+
+.carousel__track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carousel__slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel__button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: transparent;
+border: 0;
+cursor: pointer;
+}
+
+.carousel__button--left {
+   left: -50px 
+}
+
+.carousel__button--right {
+    right: -50px 
+ }
+
+.carousel__button img {
+    width: 12px;
+}
+
+.carousel__nav {
+    background: #f7b2bd;
+}
+
+.carousel__indicator {
+    border: 0;
+    border-radius: 50%;
+}

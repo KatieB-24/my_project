@@ -1,0 +1,16 @@
+header {
+    font-family: 'Libre Baskerville', serif;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+body {
+    color: rgba(159, 154, 164, 1);
+}
+
+h1 {
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
